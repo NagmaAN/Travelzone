@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <!-- Font Awesome CDN link from jsDelivr for Font Awesome 5 -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>TraVelZone</title>
+</head>
+<body>
+    <header class="head">
+      <div id="logo">
+        <h2>TraVelZone</h2></div>
+        <nav class="nav">
+        <a href="#home" target="home">Home</a>
+        <a href="#search" target="search">Search</a>
+        <a href="#places" target="Popular Places">Popular Places</a>
+         
+         <a href="#contact" target="contact">Contact</a> 
+    </nav>
+</header>
+
+    <div class="slider">
+      <div><img src="https://image.ibb.co/hbEMux/resort1.jpg" alt="Image 1">
+      
+      <div class="para">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ipsa, sunt optio voluptatem quibusdam repellat.</p>
+      </div></div>
+      <div><img src="https://image.ibb.co/mn1egc/resort2.jpg" alt="Image 2"></div>
+      <div><img src="https://images.pexels.com/photos/15031960/pexels-photo-15031960/free-photo-of-maldives-island-water-villa-sunset.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image 3"></div>
+      
+    </div>
+    <section class="text">
+      <div >
+             <p id="search">Search Destination.</p></div>
+<div class="search">
+  <input type="text" placeholder="Your favourable Destination is here !!">
+</div>
+    </section>
+
+  
+      
+        <div id="places"><h2>Popular Places.</h2></div>
+        <div class="sub_slider" >
+          <article>
+      <img src="https://images.unsplash.com/photo-1523544261025-3159599b1fc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aW5jcmVkaWJsZSUyMGluZGlhfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="">
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+     <button type="button" class="btn">View</button>
+      </article>
+    <article><img src="https://images.unsplash.com/photo-1552978534-9d01e1f91517?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      <button type="button" class="btn">View</button></article>
+  <article><img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> 
+    <button type="button" class="btn">View</button></article>
+<article> <img src="https://images.unsplash.com/photo-1564329494258-3f72215ba175?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="">
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+  <button type="button" class="btn">View</button></article>
+<article><img src="https://images.unsplash.com/photo-1477587458883-47145ed94245?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="">
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+  <button type="button" class="btn">View</button></article>  
+</div>
+<section class="contact-section" id="contact">
+    <h3>Contact us.</h3>
+    <p>Just Pack and go! Let leave your travel plan to travel experts.</p>
+    <img src="https://img.freepik.com/free-vector/boy-going-trip_52683-12922.jpg?size=626&ext=jpg&ga=GA1.1.1999894102.1694631579&semt=ais">
+   
+    <div class="form-group">
+    
+      <table>
+        <tr><td>
+<input type="text" placeholder="Your name" id="name" required></td></tr>
+<tr><td>
+<input type="email" placeholder="Email Address" id="email" required></td></tr>
+<tr><td>
+<input type="mobile" placeholder="+91 Your phone number.." id="mobile" required></td></tr>
+<tr><td>
+<textarea placeholder="Message" rows="10" cols="30"></textarea></td></tr>
+<tr><td><button type="submit" onclick="send()" class="btn1"><i class="fa fa-paper-plane"></i>Send</button></td></tr>
+      </table>
+
+  </div>
+</section>
+<div class="footer">
+  <p>&copy; 2023 Your Website. All rights reserved.</p><br/>
+  <p>Connect us on..</p>
+  <i class='fa fa-linkedin-square' style='color: white'></i>
+  <i class="fa fa-instagram"></i>
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-github" aria-hidden="true"></i>
+</div>
+
+
+    
+
+    
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Slick CSS and JS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.slider').slick({
+      autoplay: true, // Auto-play the carousel
+      dots: false, // Show navigation dots
+      infinite: true, // Loop the carousel
+      speed: 500, // Transition speed in milliseconds
+      slidesToShow: 1, // Number of slides to show at a time
+      slidesToScroll: 1 // Number of slides to scroll on navigation
+    });
+  });
+</script>
+<script>
+$('.sub_slider').slick({
+  autoplay:true,
+  speed:500,
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+</script>
+<script type="text/javascript" src="index.js"></script>
+  
+
+
+    
+</body>
+</html>
